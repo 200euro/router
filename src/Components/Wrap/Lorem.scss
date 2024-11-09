@@ -1,0 +1,37 @@
+.wrap1{
+
+}
+
+
+.wrapper__1{
+   border-radius: 20px;
+   display: flex;
+ align-items: center;
+   height: 300px;
+   display: flex;
+justify-content: space-evenly;
+background-color: palevioletred;
+
+@media (max-width: 1000px) {
+   flex-direction: column;
+ }
+
+
+}
+.lorem{
+
+
+   h1{
+      padding: 50px 0;
+      text-align: center;
+   }
+}
+
+.lorem__text1{
+
+color: red;
+   border: solid 2px black;
+
+
+ 
+}

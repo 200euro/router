@@ -1,0 +1,50 @@
+.wrapper{
+ display: flex;
+align-items: center;
+gap: 30px;
+
+
+h1{
+   font-size: 50px;
+}
+
+p{
+   font-size: 20px;
+}
+
+
+@media (max-width: 900px) {
+   text-align: center;
+  flex-wrap: wrap;
+}
+
+}
+
+.wrapper__hero{
+   display: flex;
+  align-items: center;   
+   flex-direction: column;
+
+   img{
+      border-radius: 20px;
+width: 60%;
+   }
+}
+
+.wrapper__text{
+
+
+
+ 
+
+   button{
+      border: none;
+      width: 150px;
+      padding: 15px;
+      background-color: aqua;
+   }
+
+   @media (max-width: 900px) {
+ 
+   }
+}
